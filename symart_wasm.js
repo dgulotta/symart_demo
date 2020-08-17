@@ -555,6 +555,9 @@ Module.STDWEB_PRIVATE.acquire_tmp = function( dummy ) {
                 "__cargo_web_snippet_06f31fdb8e557ba44aaaa2b7a5a6f57d459c4653": function($0, $1) {
                 return Module.STDWEB_PRIVATE.acquire_rust_reference( Module.HEAPU8.slice( $0, $1 ) );
             },
+            "__cargo_web_snippet_09675c7ed2827e045dc760aeac3d286437cfbe5e": function($0, $1, $2, $3) {
+                $1 = Module.STDWEB_PRIVATE.to_js($1);$2 = Module.STDWEB_PRIVATE.to_js($2);$3 = Module.STDWEB_PRIVATE.to_js($3);Module.STDWEB_PRIVATE.from_js($0, (function(){try{return{value:function(){return($1).setAttribute(($2),($3));}(),success:true};}catch(error){return{error:error,success:false};}})());
+            },
             "__cargo_web_snippet_0a02c7764aacc2ed939a149ae98000223d3eebe8": function($0) {
                 var r = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (r instanceof DOMException) && (r.name === "InvalidStateError");
             },
@@ -662,6 +665,9 @@ Module.STDWEB_PRIVATE.acquire_tmp = function( dummy ) {
             },
             "__cargo_web_snippet_bf417ae01e51991f63c404c3d0ad996098f5dc8d": function($0) {
                 var o = Module.STDWEB_PRIVATE.acquire_js_reference( $0 );return (o instanceof UIEvent && o.type === "load") | 0;
+            },
+            "__cargo_web_snippet_c1d56d77abf1a7eead2b7773afd66f83e0ad2970": function() {
+                $("#form").tabs();
             },
             "__cargo_web_snippet_d5e30f74cb752784e06bd97a37b1f89b6c3433a7": function($0, $1, $2) {
                 $1 = Module.STDWEB_PRIVATE.to_js($1);$2 = Module.STDWEB_PRIVATE.to_js($2);Module.STDWEB_PRIVATE.from_js($0, (function(){return($1).getElementById(($2));})());
